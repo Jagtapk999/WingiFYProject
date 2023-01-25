@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[LoginPage Validation]]>
+    </line>
+    <line>
+      <![CDATA[HomePage Validation]]>
+    </line>
+    <line>
+      <![CDATA[Table data sorted Validation]]>
+    </line>
+    <line>
+      <![CDATA[After Click on Amount Header Options are Sorted]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26034" started-at="2023-01-25T19:21:08 IST" finished-at="2023-01-25T19:21:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26034" started-at="2023-01-25T19:21:08 IST" finished-at="2023-01-25T19:21:34 IST">
+      <class name="testClasses.LoginTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="launchBrowser" is-config="true" duration-ms="5421" started-at="2023-01-25T19:21:08 IST" finished-at="2023-01-25T19:21:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="refersh()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="refersh" is-config="true" duration-ms="1" started-at="2023-01-25T19:21:14 IST" finished-at="2023-01-25T19:21:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refersh -->
+        <test-method status="PASS" signature="tc01()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="tc01" duration-ms="2024" started-at="2023-01-25T19:21:14 IST" finished-at="2023-01-25T19:21:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage Validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="take(org.testng.ITestResult)[pri:0, instance:testClasses.LoginTest@4ae82894]" name="take" is-config="true" duration-ms="2185" started-at="2023-01-25T19:21:16 IST" finished-at="2023-01-25T19:21:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01 status=SUCCESS method=LoginTest.tc01()[pri:0, instance:testClasses.LoginTest@4ae82894] output=LoginPage Validation]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take -->
+        <test-method status="PASS" signature="refersh()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="refersh" is-config="true" duration-ms="0" started-at="2023-01-25T19:21:18 IST" finished-at="2023-01-25T19:21:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refersh -->
+        <test-method status="PASS" signature="tco2()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="tco2" duration-ms="6234" started-at="2023-01-25T19:21:18 IST" finished-at="2023-01-25T19:21:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage Validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tco2 -->
+        <test-method status="PASS" signature="take(org.testng.ITestResult)[pri:0, instance:testClasses.LoginTest@4ae82894]" name="take" is-config="true" duration-ms="2158" started-at="2023-01-25T19:21:24 IST" finished-at="2023-01-25T19:21:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tco2 status=SUCCESS method=LoginTest.tco2()[pri:0, instance:testClasses.LoginTest@4ae82894] output=HomePage Validation]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take -->
+        <test-method status="PASS" signature="refersh()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="refersh" is-config="true" duration-ms="0" started-at="2023-01-25T19:21:26 IST" finished-at="2023-01-25T19:21:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refersh -->
+        <test-method status="PASS" signature="tc03()[pri:1, instance:testClasses.LoginTest@4ae82894]" name="tc03" duration-ms="5491" started-at="2023-01-25T19:21:26 IST" finished-at="2023-01-25T19:21:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Table data sorted Validation]]>
+            </line>
+            <line>
+              <![CDATA[After Click on Amount Header Options are Sorted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="take(org.testng.ITestResult)[pri:0, instance:testClasses.LoginTest@4ae82894]" name="take" is-config="true" duration-ms="2246" started-at="2023-01-25T19:21:32 IST" finished-at="2023-01-25T19:21:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03 status=SUCCESS method=LoginTest.tc03()[pri:1, instance:testClasses.LoginTest@4ae82894] output=Table data sorted Validation]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:testClasses.LoginTest@4ae82894]" name="Close" is-config="true" duration-ms="205" started-at="2023-01-25T19:21:34 IST" finished-at="2023-01-25T19:21:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- testClasses.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
